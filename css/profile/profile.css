@@ -1,0 +1,31 @@
+/* Профиль пользователя */
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 5px;
+    max-height: 400px;
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+    border-width: 1px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 15px;
+}
+
+.avatar {
+    background-color: rgb(200, 200, 200);
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+
+.person-name {
+    margin: 0;
+    margin-top: 10px;
+    color: rgb(200, 200, 200);
+}

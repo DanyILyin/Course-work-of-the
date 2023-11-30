@@ -1,0 +1,50 @@
+
+/* Навигационная панель */
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 0%;
+    margin-bottom: 5px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 0px 0px 15px 15px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav-left-ul {
+    display: flex;
+    margin: 0px;
+    margin-left: 15px;
+    padding: 0px;
+}
+
+.nav-bar {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.nav-bar > a {
+    outline: none;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+
+}
+
+.top-home {
+    display: flex;
+    align-items: center;
+}
+
+
+.search-panel {
+    border-radius: 10px;
+}

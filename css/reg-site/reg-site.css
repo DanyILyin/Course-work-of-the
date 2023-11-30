@@ -1,0 +1,32 @@
+/* Страница регистрации */
+.form-reg {
+    margin-top: 50px;
+    color: rgb(200, 200, 200);
+    display: flex;
+    justify-content: center;
+}
+.form-reg-block-cont {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+    border-width: 1px;
+    border-radius: 15px;
+    text-align: center;
+    width: 270px;
+    background-color: rgb(45, 45, 45);
+}
+
+.reg-items {
+    display:inline-block;
+}
+
+.form-reg-block-head-text {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+/* .form-reg-name-input {
+
+} */

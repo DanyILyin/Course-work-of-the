@@ -1,0 +1,31 @@
+/* Правая боковая панель */
+.right-context-box {
+    width: 170px;
+}
+
+.container-right > ul {
+    padding-left: 0;
+}
+
+.right-text > li > a {
+    outline: none;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+.right-text > li {
+    margin: 10px;
+    font-size: 22px;
+    list-style: none;
+}
+
+.container-right {
+    height: max-content;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+    border-width: 1px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 15px;
+}

@@ -1,0 +1,49 @@
+@import url(./nav-panel/nav-panel.css);
+@import url(./logo/logo.css);
+@import url(./container-friends/container-friends.css);
+@import url(./profile/profile.css);
+@import url(./reg-site/nav-panel-layout.css);
+@import url(./reg-site/reg-site.css);
+@import url(./right-context-box/right-content-block.css);
+@import url(./iternal-content/iternal-content.css);
+
+/* Главная разметка в Layout*/
+/* .layout-body{
+
+} */
+
+/* Основной блок */
+a {
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(200, 200, 200);
+    background-color: rgb(15, 15, 15);
+}
+body {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.main {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* Центральное контекстное окно */
+
+.context-menu {
+    width: 800px;
+    height: 100vh;
+    border-width: 0, 5px;
+}
+
+
+
+
