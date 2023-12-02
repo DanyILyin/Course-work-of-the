@@ -5,7 +5,7 @@ function createProfileComponentTemplate() {
     return (
         `<div class="profile">
             <div class="avatar"> 
-            <img src="../../resurses/123.png" alt="">
+
             </div>
             <div class="profile-text">
                 <h1 class="person-name">Имя Пользователя</h1>
@@ -17,7 +17,6 @@ function createProfileComponentTemplate() {
 export class ProfileComponent {
     getTemplate() 
     {
-        // setImage()
         return createProfileComponentTemplate();
     }
     
