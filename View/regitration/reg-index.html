@@ -3,42 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
-    <div class="form-reg">
-        <div class="form-reg-block-cont">
-            <h1 class="form-reg-block-head-text">Регистрация</h1>
-            <form method="post" asp-controller="Registration" asp-action="Check">
-                <div class="reg-items">
-                    <label class="form-reg-name-input" asp-for="Name"></label>
-                    <input class="form-reg-input" asp-for="Name">
-                    <span asp-validation-for="Name"></span>
-                </div>
-    
-                <div class="reg-items">
-                    <label class="form-reg-name-input" asp-for="Surname"></label>
-                    <input class="form-reg-input" asp-for="Surname">
-                    <span asp-validation-for="Surname"></span>
-                </div>
-    
-                <div class="reg-items">
-                    <label class="form-reg-name-input" asp-for="DateOfBigth"></label>
-                    <input class="form-reg-input" asp-for="DateOfBigth">
-                    <span asp-validation-for="DateOfBigth"></span>
-                </div>
-    
-                <div class="reg-items">
-                    <label class="form-reg-name-input" asp-for="Email"></label>
-                    <input class="form-reg-input" asp-for="Email">
-                    <span asp-validation-for="Email"></span>
-                </div>
-    
-                <input type="submit" value="Отправить" />
-            </form>
+    <div class="aut-content-block">
+        <div class="autorization-panel">
+            <h3>Регистрация</h3>
+            <p>Имя</p>
+            <input id="name">
+            <p>Фамилия</p>
+            <input id="surname">
+            <p>Номер телефона</p>
+            <input id="phone">
+            <p>Логин</p>
+            <input id="login">
+            <p>Пароль</p>
+            <input id="password">
+            <button type="submit" id="submit">Зарегистрироваться</button>
         </div>
     </div>
+    <script type="module" src="../../js/autorization/reg.js"></script>
 </body>
 </html>
 
