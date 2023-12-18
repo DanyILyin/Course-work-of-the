@@ -1,8 +1,6 @@
 import {usList} from "./usersList.js";
-// import {} from "";
 
 const users = usList;
-// let name = document.querySelector('#name');
 let login = document.querySelector('#login');
 let password = document.querySelector('#password');
 let submit = document.querySelector('#aut-button');
@@ -15,7 +13,7 @@ submit.addEventListener('click', () => {
     users.forEach((log) => {
         if (loginUser == log.login){
             if(passwordUser == log.password){
-                console.log('Авторизация прошла успешно');
+                console.log('Авторизация прошла успешно');               
                 open_win(log.id);
             }
             else{
@@ -27,8 +25,9 @@ submit.addEventListener('click', () => {
 
 })
 
-function open_win() {
-    // window.open("../profile/profile.html")
+// использую локальное хранилище чтобы передать ключ с одного HTML файла в другой
+function open_win(userId) {
+    localStorage.test = userId
     document.location.href = "../profile/index.html";
 }
 
