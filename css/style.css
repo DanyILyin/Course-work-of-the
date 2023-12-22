@@ -9,11 +9,13 @@
 @import url(./input/input-log.css);
 @import url(./autorization-panel/aut-panel.css);
 @import url(./button/aut-button.css);
-
+@import url(./location/location-component.css);
+@import url(./userGallery/userGallery.css);
+@import url(./gallery-and-cloation-place.css);
+@import url(./user-post/user-post.css);
 /* Главная разметка в Layout*/
-/* .layout-body{
 
-} */
+
 
 /* Основной блок */
 a {
@@ -21,11 +23,16 @@ a {
     color: rgb(200, 200, 200);
 }
 html {
+    height: max-content;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
     background-color: rgb(15, 15, 15);
-    background-image: url(../resurses/backgrounds/6195005.jpg);
+    /* background-image: url(../resurses/backgrounds/6195005.jpg); */
 
+}
+
+html h3{
+    margin: 0;
 }
 body {
     margin: 0;
@@ -49,6 +56,12 @@ body {
     border-width: 0, 5px;
 }
 
+
+.test{
+    display: block;
+    width: 1000px;
+    height: 800px;
+}
 
 
 

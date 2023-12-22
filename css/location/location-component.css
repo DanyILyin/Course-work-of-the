@@ -1,0 +1,21 @@
+.location-component{
+    margin-top: 10px;
+    margin-right: 10px;
+    display: block;
+    width: 260px;
+    height: 300px;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+    border-width: 1px;
+    border-radius: 15px;
+    background-color: rgb(45, 45, 45);
+}
+
+.location-div{
+    margin: 5px;
+}
+
+.userGallery h3{
+    margin-left: 15px;
+}

@@ -1,5 +1,6 @@
 /* Правая боковая панель */
 .right-context-box {
+    margin-left: 10px;
     width: 170px;
 }
 
@@ -20,9 +21,10 @@
 }
 
 .container-right {
+    margin-top: 10px;
+    margin-bottom: 15px;
     height: max-content;
     margin-left: 5px;
-    margin-bottom: 5px;
     border-style: solid;
     border-color: rgb(70, 70, 70);
     border-width: 1px;

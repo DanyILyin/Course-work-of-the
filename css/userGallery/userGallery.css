@@ -1,0 +1,49 @@
+.userGallery{
+    
+}
+
+
+.container-image {
+    
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+    border-width: 1px;
+    border-radius: 15px;
+    background-color: rgb(45, 45, 45);
+    margin: 5px;
+    width: 500px;
+    height: 330px;
+}
+
+.image-block {
+    padding: 0;
+}
+
+.user-image {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    display: inline-block;
+    list-style: none;
+    background-color: rgb(200, 200, 200);
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+    border-width: 1px;
+    border-radius: 20px;
+}
+
+.user-image img{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+    border-width: 1px;
+    border-radius: 15px;
+}
